@@ -10,7 +10,10 @@
 // }
 
 
+
 function play() {
-    hideElement('home-screen');
-    showElement('play-ground');
+    hideElement();
+    showElement();
+    const alphabet = continueGame(); 
+    addBgColor(alphabet); 
 }
